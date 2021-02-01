@@ -15,7 +15,7 @@ public class ListaDeAnimais {
             int resposta = new Scanner(System.in).nextInt();
 
             if(resposta == 1){
-                System.out.println("Qual zoologico vc vai cadastrar? ");
+                System.out.println("Qual zoologico vc vai CADASTRAR? ");
                 String zoologico = new Scanner(System.in).nextLine();
                 List<String> animais = new ArrayList<>();
                 String retorno = "";
