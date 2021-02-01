@@ -20,7 +20,7 @@ public class ListaDeAnimais {
                 List<String> animais = new ArrayList<>();
                 String retorno = "";
                 do{
-                    System.out.println("Digite o nome do ANIMAL para cadastrar ou sair para finalizar");
+                    System.out.println("Digite o nome do animal para cadastrar ou sair para finalizar");
                     retorno = new Scanner(System.in).nextLine();
                     if(!retorno.equalsIgnoreCase("sair")){
                         animais.add(retorno);
